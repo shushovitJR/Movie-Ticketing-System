@@ -22,11 +22,31 @@
         <li class="nav-links"><a href="">Contact Us</a></li>
         <div id="login">
             <img src="Image-Logos/Logo-icon.png" alt="Failed">
-            <li class="nav-links"><a href="">Login</a></li>
+            <a onclick="toggleLogin()">Login</a>
 
         </div>
         
        </div> 
     </header>
+    <div id="overlay">
+        <div id="popup-login">
+            <h2>Login</h2>
+            <input type="email" name="email" id="email-enter" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <div id="buts">
+                <button id="login-go">Go</button>
+            <button id="signup">Sign-Up</button>
+            </div>
+            <a href="">Forgot Your Password</a>
+            <a id="login-close" onclick="toggleCloseLogin()">Close</a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
