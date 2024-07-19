@@ -64,38 +64,4 @@ header{
 /* #login img{
     width: 5vw;
     height: 60px;
-<<<<<<< Updated upstream
 }
-=======
-} */
-#login:hover{
-    cursor: pointer;
-    font:18px bolder;
-    color:#0ABCF8;
-    background-color:white;
-    border-color:white;
-}
-#overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(0,0,0,0.7);
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-#popup-login{
-    display: flex;
-    flex-direction: column;
-    background-color: gray;
-
-}
-#login-close{
-    transform: translateX(75%);
-}
-#login-close:hover{
-    cursor: pointer;
-}
->>>>>>> Stashed changes
