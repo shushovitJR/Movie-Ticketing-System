@@ -8,13 +8,8 @@ body{
     background:linear-gradient(#061C24 55%,#0ABCF8 100%);/*#061C24,#0ABCF8 */
 }
 header{
-<<<<<<< Updated upstream
-    margin:20px;
-=======
-    /* margin:10px; */
     margin-left: 20px;
     margin-right:40px;
->>>>>>> Stashed changes
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,23 +32,20 @@ header{
     border-bottom: 2px solid #0ABCF8;
 }
 #header-left img{
-<<<<<<< Updated upstream
-    width: 15vw;
-    height: 25px;
-=======
+    width: 8vw;
+    height: 39px;
     display:flex;
     /* padding-top:10px; */
     margin-top:20px;
     margin-left:20px;
-    width: 11vh;
-    height: 11vh;
-    transform:rotate(10deg);
+    /* width: 11vh;
+    height: 11vh; */
+    /* transform:rotate(10deg); */
     filter:drop-shadow(0 0 5px #c0ebff) drop-shadow(0 0 5px #9ecbff);
 }
 #header-left img:hover{
     transform:rotate(370deg);
     transition:0.8s ease;
->>>>>>> Stashed changes
 }
 #header-right{
     display: flex;
@@ -67,14 +59,15 @@ header{
 }
 
 #login{
-    display: flex;
+    /* display: flex; */
+    text-align: center;
     width:100px;
     height:40px;
     font:14px bolder;
     /* font-family:Georgia, 'Times New Roman', Times, serif; */
-    flex-direction: column;
+    /* flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     color:white;
     background: #00749e;
     border-radius:15px;
@@ -82,11 +75,11 @@ header{
     /* margin-top: -20px; */
     /* height: 100%; */
 }
-#login img{
-    width: 5vw;
-    height: 60px;
-}
-#login a:hover{
+/* #login img{
+    width: 3vw;
+    height: 50px;
+} */
+#login:hover{
     cursor: pointer;
 }
 #overlay{
