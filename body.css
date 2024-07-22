@@ -1,0 +1,19 @@
+.slides{
+    margin-top: 15px;
+}
+.mySlides{
+    display: none;
+    height: 500px;
+}
+.slides button{
+    position: absolute;
+    top: 50%;
+    height: 10%;
+    width: 5%;
+}
+.slide-button-right{
+    right: 0;
+}
+.slide-button-left{
+    left: 0;
+}
