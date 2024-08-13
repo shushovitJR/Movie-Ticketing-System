@@ -8,7 +8,6 @@ body{
     background:linear-gradient(#061C24 55%,#0af8f0 100%);/*#061C24,#0ABCF8 */
 }
 header{
-<<<<<<< HEAD:styles/body.css
     margin-left: 20px;
     margin-right:40px;
     margin-bottom: 15px;
@@ -24,24 +23,6 @@ header{
     /* text-decoration:none; */
     /* background-color: ?; */
     /* height: 100px; */
-=======
-    display:flex;
-    left: 0;
-    right: 0;
-    color:white;
-}
-nav{
-    border-bottom: 0.1px solid #01ff99;
-    /* filter:drop-shadow(0 0 8px #00ffd0) drop-shadow(0 0 10px #0072a7); */
-    margin-right:30px;
-    margin:5px 0;
-    width:98%;
-    height:fit-content;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-
->>>>>>> 8db2fc37ba2cc959cf68d6ee0a2f44d5e805d39e:style.css
 }
 .nav-links a{
     text-transform: uppercase;
@@ -137,15 +118,3 @@ nav{
 #login-close:hover{
     cursor: pointer;
 }
-<<<<<<< HEAD:styles/body.css
-
-=======
-#popup-login{
-    /* text-align: center; */
-    color:white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight:bolder;
-    /* text-decoration:drop-shadow(0 0 20px #000000); */
-    /* gap:0vh; */
-}
->>>>>>> 8db2fc37ba2cc959cf68d6ee0a2f44d5e805d39e:style.css
