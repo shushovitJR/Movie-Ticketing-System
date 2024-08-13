@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Rates</title>
+    <link rel="stylesheet" href="../styles/ticket_rates.css">
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+       <div id="header-left">
+        <img src="../Image-Logos/logo.png" alt="Couldn't Load">
+       </div>
+       <div id="header-right">
+        <li class="nav-links"><a href="index.html">Home</a></li>
+        <li class="nav-links"><a href="ticket_rates.html">Ticket Rates</a></li>
+        <li class="nav-links"><a href="business.html">Business</a></li>
+        <li class="nav-links"><a href="about.html">About Us</a></li>
+        <li class="nav-links"><a href="contact.html">Contact Us</a></li>
+        <div id="login" onclick="toggleLogin()">
+        
+            <!-- <img src="Image-Logos/new-logo-cm.jpg" alt="Failed"> -->
+            <!-- <a onclick="toggleLogin()">Login</a> -->
+             <p>Login</p>
+        </div>
+        <!-- <a href="javascript:void(0)" onclick="toggleLogin()" id="login-link">
+            <img src="Image-Logos/new-logo-cm.jpg" alt="Failed">
+            <a onclick="toggleLogin()">Login</a>
+        </a> -->
+       </div>
+    </nav> 
+    </header>
+     <div id="overlay">
+        <div id="popup-login">
+            <h2>Login</h2>
+            <input type="email" name="email" id="email-enter" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <div id="buts">
+                <button id="login-go">Go</button>
+            <button id="signup">Sign-Up</button>
+            </div>
+            <a href="">Forgot Your Password</a>
+            <a id="login-close" onclick="toggleCloseLogin()">Close</a>
+        </div>
+    </div>
+    <section class="Recentmovies_poster">
+        <img class="mySlides" src="../Image-Logos/lion_with_shallow_background_hd_lion-1920x1080.jpg">
+        <h1 class="image-text">Ticket Rates</h1>
+
+    </section>
+
+    <footer>
+        <div class="top-footer">
+            <div class="navigate">
+                <h2>Navigate</h2>
+                <a href="ticket_rates.html">Ticket Rates</a>
+                <a href="business.html">Business</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="info-footer">
+                <h2>Chitra Movies</h2>
+                <ul><li>Chitra Movies Pvt. Ltd.</li>
+                <li>Chabahil, Kathmandu</li>
+                <li>Chitra Fan Club Helpline:9823726411</li>
+                <li>Email:chitramovies@gmail.com</li></ul>
+                <h4>For Booking,Call Us at 4568700</h4>
+            </div>
+            <div class="social-media">
+                <h2>Stay Connected</h2>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                
+            </div>
+        </div>
+        <div class="bottom-footer">
+            &copy;2024Chitra Movies. All Rights Reserved. Developed by:<b>Chitra Movies Pvt. Ltd.</b>
+        </div>
+    </footer>
+    
+
+     <script src="../script.js"></script>
+</body>
+</html>
