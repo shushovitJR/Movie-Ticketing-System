@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Movies</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/body.css">
+=======
+    <title>C...Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="body.css">
+>>>>>>> 8db2fc37ba2cc959cf68d6ee0a2f44d5e805d39e
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <nav>
        <div id="header-left">
-        <img src="/Image-Logos/new-logo-cm.jpg" alt="Couldn't Load">
+        <img src="/Image-Logos/logo.png" alt="Couldn't Load">
        </div>
        <div id="header-right">
         <li class="nav-links"><a href="">Home</a></li>
@@ -22,6 +29,7 @@
         <li class="nav-links"><a href="">About Us</a></li>
         <li class="nav-links"><a href="">Contact Us</a></li>
         <div id="login" onclick="toggleLogin()">
+        
             <!-- <img src="Image-Logos/new-logo-cm.jpg" alt="Failed"> -->
             <!-- <a onclick="toggleLogin()">Login</a> -->
              <p>Login</p>
@@ -30,7 +38,8 @@
             <img src="Image-Logos/new-logo-cm.jpg" alt="Failed">
             <a onclick="toggleLogin()">Login</a>
         </a> -->
-       </div> 
+       </div>
+    </nav> 
     </header>
     <div id="overlay">
         <div id="popup-login">
@@ -45,7 +54,7 @@
             <a id="login-close" onclick="toggleCloseLogin()">Close</a>
         </div>
     </div>
-
+    <section class="Recentmovies_poster">
     <div class="slides">
         <img class="mySlides" src="./Image-Logos/stock-vector-editable-text-effect-super-text-effects-suitable-for-games-and-movie-logos-2284601729.jpg">
         <img class="mySlides" src="./Image-Logos/lion_with_shallow_background_hd_lion-1920x1080.jpg">
@@ -55,6 +64,7 @@
         <button class="slide-button-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="slide-button-right" onclick="plusDivs(1)">&#10095;</button>
       </div>
+    </section>
 
 
 

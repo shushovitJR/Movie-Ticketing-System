@@ -3,11 +3,12 @@ body{
     padding:0;
     box-sizing: border-box;
     width:100%;
-    height:100vh;
+    height:120vh;
     font-family: "Roboto", sans-serif;
-    background:linear-gradient(#061C24 55%,#0ABCF8 100%);/*#061C24,#0ABCF8 */
+    background:linear-gradient(#061C24 55%,#0af8f0 100%);/*#061C24,#0ABCF8 */
 }
 header{
+<<<<<<< HEAD:styles/body.css
     margin-left: 20px;
     margin-right:40px;
     margin-bottom: 15px;
@@ -23,31 +24,51 @@ header{
     /* text-decoration:none; */
     /* background-color: ?; */
     /* height: 100px; */
+=======
+    display:flex;
+    left: 0;
+    right: 0;
+    color:white;
+}
+nav{
+    border-bottom: 0.1px solid #01ff99;
+    /* filter:drop-shadow(0 0 8px #00ffd0) drop-shadow(0 0 10px #0072a7); */
+    margin-right:30px;
+    margin:5px 0;
+    width:98%;
+    height:fit-content;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+>>>>>>> 8db2fc37ba2cc959cf68d6ee0a2f44d5e805d39e:style.css
 }
 .nav-links a{
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration:none;
     color:whitesmoke;
-    font: 14px bold;
+    font: 11px bold;
+    border-bottom: 2px solid #00ff96;
+
 }
 .nav-links a:hover{
-    color:#0ABCF8;
-    border-bottom: 2px solid #0ABCF8;
+
+    color:#00ff96;
+    padding-bottom:8px;
 }
 #header-left img{
-    width: 8vw;
-    height: 39px;
+    width: 10vw;
+    height: 12.5vh;
     display:flex;
-    /* padding-top:10px; */
-    margin-top:20px;
-    margin-left:20px;
-    /* width: 11vh;
-    height: 11vh; */
-    /* transform:rotate(10deg); */
-    filter:drop-shadow(0 0 5px #c0ebff) drop-shadow(0 0 5px #9ecbff);
+    margin-top:5px;
+    margin-left:30px;
+    filter:drop-shadow(0 0 8px #00ffd0) drop-shadow(0 0 10px #0072a7);
 }
 #header-left img:hover{
-    transform:rotate(370deg);
-    transition:0.8s ease;
+    transform:scale(1.1);
+    transition:0.5s ease-in-out;
+    filter:drop-shadow(0 0 8px #00ffd0) drop-shadow(0 0 10px #00a772);
 }
 #header-right{
     display: flex;
@@ -57,32 +78,34 @@ header{
     text-decoration:none;
     list-style-type:none;
     color:white;
-    gap: 4vw;
+    gap: 2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #login{
-    /* display: flex; */
-    text-align: center;
-    width:100px;
-    height:40px;
-    font:14px bolder;
-    /* font-family:Georgia, 'Times New Roman', Times, serif; */
-    /* flex-direction: column;
+    margin-left:30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center; */
+    text-align: center;
+    width:60px;
+    height:40px;
+    font:15px bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:white;
-    background: #00749e;
-    border-radius:15px;
-    border: 2px solid white;
-    /* margin-top: -20px; */
-    /* height: 100%; */
+    background:linear-gradient(#004053 20%,#06bdff 100%);/*#061C24,#0ABCF8 */
+    border-radius:8px;
+    border: 0.1px solid white;
+    filter:drop-shadow(0 0 2px #00eaff) drop-shadow(0 0 3px #009ca7);
+
 }
-/* #login img{
-    width: 3vw;
-    height: 50px;
-} */
 #login:hover{
     cursor: pointer;
+    filter:drop-shadow(0 0 4px #00ffaa) drop-shadow(0 0 5px #00a772);
+    background:linear-gradient(#00533d 20%,#06ffc5 100%);
+    transform:scale(1.1);
+    transition:0.8s ease;
+
 }
 #overlay{
     position: fixed;
@@ -96,10 +119,17 @@ header{
     align-items: center;
 }
 #popup-login{
+    padding:10px 10px;
+    height:30vh;
+    width:40vw;
+    Color:white;
     display: flex;
     flex-direction: column;
-    background-color: gray;
-
+    /* border:2px solid rgb(0, 255, 136); */
+    /* display:transparent; */
+    background:linear-gradient(#00ff9d 25%,#018545 100%);/*#061C24,#0ABCF8 */
+    filter:drop-shadow(0 0 30vh #00ff8c) drop-shadow(0 0 50vh #008b5a);
+    border-radius: 8px;
 }
 #login-close{
     transform: translateX(75%);
@@ -107,4 +137,15 @@ header{
 #login-close:hover{
     cursor: pointer;
 }
+<<<<<<< HEAD:styles/body.css
 
+=======
+#popup-login{
+    /* text-align: center; */
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bolder;
+    /* text-decoration:drop-shadow(0 0 20px #000000); */
+    /* gap:0vh; */
+}
+>>>>>>> 8db2fc37ba2cc959cf68d6ee0a2f44d5e805d39e:style.css
