@@ -24,6 +24,18 @@ header{
     /* background-color: ?; */
     /* height: 100px; */
 }
+nav{
+    border-bottom: 0.1px solid #01ff99;
+    /* filter:drop-shadow(0 0 8px #00ffd0) drop-shadow(0 0 10px #0072a7); */
+    margin-right:30px;
+    margin:5px 0;
+    width:98%;
+    height:fit-content;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 .nav-links a{
     text-transform: uppercase;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -98,6 +110,7 @@ header{
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 #popup-login{
     padding:10px 10px;
@@ -111,6 +124,7 @@ header{
     background:linear-gradient(#00ff9d 25%,#018545 100%);/*#061C24,#0ABCF8 */
     filter:drop-shadow(0 0 30vh #00ff8c) drop-shadow(0 0 50vh #008b5a);
     border-radius: 8px;
+    z-index: 20;
 }
 #login-close{
     transform: translateX(75%);

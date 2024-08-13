@@ -6,33 +6,55 @@
     <title>Ticket Rates</title>
     <link rel="stylesheet" href="./styles/ticket_rates.css">
     <link rel="stylesheet" href="./styles/body.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div id="header-left">
-         <img src="/Image-Logos/new-logo-cm.jpg" alt="Couldn't Load">
+        <nav>
+       <div id="header-left">
+        <img src="/Image-Logos/logo.png" alt="Couldn't Load">
+       </div>
+       <div id="header-right">
+        <li class="nav-links"><a href="">Home</a></li>
+        <li class="nav-links"><a href="ticket_rates.html">Ticket Rates</a></li>
+        <li class="nav-links"><a href="">Business</a></li>
+        <li class="nav-links"><a href="">About Us</a></li>
+        <li class="nav-links"><a href="">Contact Us</a></li>
+        <div id="login" onclick="toggleLogin()">
+        
+            <!-- <img src="Image-Logos/new-logo-cm.jpg" alt="Failed"> -->
+            <!-- <a onclick="toggleLogin()">Login</a> -->
+             <p>Login</p>
         </div>
-        <div id="header-right">
-         <li class="nav-links"><a href="index.html">Home</a></li>
-         <li class="nav-links"><a href="ticket_rates.html">Ticket Rates</a></li>
-         <li class="nav-links"><a href="">Business</a></li>
-         <li class="nav-links"><a href="">About Us</a></li>
-         <li class="nav-links"><a href="">Contact Us</a></li>
-         <div id="login" onclick="toggleLogin()">
-             <!-- <img src="Image-Logos/new-logo-cm.jpg" alt="Failed"> -->
-             <!-- <a onclick="toggleLogin()">Login</a> -->
-              <p>Login</p>
-         </div>
-         <!-- <a href="javascript:void(0)" onclick="toggleLogin()" id="login-link">
-             <img src="Image-Logos/new-logo-cm.jpg" alt="Failed">
-             <a onclick="toggleLogin()">Login</a>
-         </a> -->
-        </div> 
-     </header>
-
-     <container id="poster">
+        <!-- <a href="javascript:void(0)" onclick="toggleLogin()" id="login-link">
+            <img src="Image-Logos/new-logo-cm.jpg" alt="Failed">
+            <a onclick="toggleLogin()">Login</a>
+        </a> -->
+       </div>
+    </nav> 
+    </header>
+     <div id="overlay">
+        <div id="popup-login">
+            <h2>Login</h2>
+            <input type="email" name="email" id="email-enter" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <div id="buts">
+                <button id="login-go">Go</button>
+            <button id="signup">Sign-Up</button>
+            </div>
+            <a href="">Forgot Your Password</a>
+            <a id="login-close" onclick="toggleCloseLogin()">Close</a>
+        </div>
+    </div>
+    <section class="Recentmovies_poster">
         <img class="mySlides" src="./Image-Logos/lion_with_shallow_background_hd_lion-1920x1080.jpg">
         <h1 class="image-text">Ticket Rates</h1>
-     </container>
+
+    </section>
+    
+
+     <script src="script.js"></script>
 </body>
 </html>
