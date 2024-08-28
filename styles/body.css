@@ -122,10 +122,10 @@ nav{
     flex-direction: column;
     /* border:2px solid rgb(0, 255, 136); */
     /* display:transparent; */
-    background:linear-gradient(#00ff9d 25%,#018545 100%);/*#061C24,#0ABCF8 */
-    filter:drop-shadow(0 0 30vh #00ff8c) drop-shadow(0 0 50vh #008b5a);
+    /* background:linear-gradient(#00ff9d 25%,#018545 100%);/*#061C24,#0ABCF8 */
+    /* filter:drop-shadow(0 0 30vh #00ff8c) drop-shadow(0 0 50vh #008b5a); */ 
     border-radius: 8px;
-    z-index: 20;
+    /* z-index: 20; */
 }
 #login-close{
     transform: translateX(75%);

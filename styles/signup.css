@@ -1,0 +1,14 @@
+#signup{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding:10px 10px;
+    height:30vh;
+    width:40vw;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    z-index: -1;
+}

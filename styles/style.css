@@ -17,3 +17,16 @@
 .slide-button-left{
     left: 2%;
 }
+.Recentmovies_poster{
+    margin-bottom: 100px;
+}
+.movie-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.movie-card img{
+    width: 200px;
+    height: 300px;
+}
