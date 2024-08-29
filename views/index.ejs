@@ -16,19 +16,18 @@
     <header>
         <nav>
        <div id="header-left">
-        <img src="../Image-Logos/logo.png" alt="Couldn't Load">
+        <img src="/logo.png" alt="Couldn't Load">
        </div>
        <div id="header-right">
         <li class="nav-links"><a href="#">Home</a></li>
-        <li class="nav-links"><a href="ticket_rates.html">Ticket Rates</a></li>
-        <li class="nav-links"><a href="business.html">Business</a></li>
-        <li class="nav-links"><a href="about.html">About Us</a></li>
-        <li class="nav-links"><a href="contact.html">Contact Us</a></li>
-        <div id="login" onclick="toggleLogin()">
+        <li class="nav-links"><a href="/business">Business</a></li>
+        <li class="nav-links"><a href="/about">About Us</a></li>
+        <li class="nav-links"><a href="/contact">Contact Us</a></li>
+        <div id="login">
         
             <!-- <img src="Image-Logos/new-logo-cm.jpg" alt="Failed"> -->
             <!-- <a onclick="toggleLogin()">Login</a> -->
-             <p>Login</p>
+             <p><a href="/login">Login</a></p>
         </div>
         <!-- <a href="javascript:void(0)" onclick="toggleLogin()" id="login-link">
             <img src="Image-Logos/new-logo-cm.jpg" alt="Failed">
@@ -37,27 +36,13 @@
        </div>
     </nav> 
     </header>
-    <div id="overlay">
-        <div id="popup-login">
-            <h2>Login</h2>
-            <form action="/index" method="post">
-                <input type="text" name="username" id="name" placeholder="Enter Your Name" required autocomplete="off">
-                <input type="password" name="password" id="password" placeholder="password" required>
-                <button type="submit" class="submit-btn">Login</button>
-            </form>
-            <div id="buts">
-            <a id="signup" href="/signup">Sign-Up</a>
-            </div>
-            
-            <a id="login-close" onclick="toggleCloseLogin()">Close</a>
-        </div>
-    </div>
+    
     <section class="Recentmovies_poster">
     <div class="slides">
-        <img class="mySlides" src="../Image-Logos/boll-movie-poster.jpg">
-        <img class="mySlides" src="../Image-Logos/lion_with_shallow_background_hd_lion-1920x1080.jpg">
-        <img class="mySlides" src="../Image-Logos/viber_image_2024-07-09_09-02-17-388.jpg">
-        <img class="mySlides" src="../Image-Logos/viber_image_2024-07-14_08-39-59-097.jpg">
+        <img class="mySlides" src="/boll-movie-poster.jpg">
+        <img class="mySlides" src="/hanuman.jpg">
+        <img class="mySlides" src="/jaw.jpg">
+        <img class="mySlides" src="/joker.jpg">
         <h1 class="image-text">Now Showing</h1>
         <button class="slide-button-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="slide-button-right" onclick="plusDivs(1)">&#10095;</button>
@@ -66,15 +51,41 @@
 
     <h2>Now Showings</h2>
     <section class="movie-card">
-        <a href="seats.html"><img src="../Image-Logos/boll-movie-poster.jpg" alt=""></a>
-        <a href="seats.html"><img src="../Image-Logos/hanuman.jpg" alt=""></a>
-        <a href="seats.html"><img src="../Image-Logos/jaw.jpg" alt=""></a>
-        <a href="seats.html"><img src="../Image-Logos/joker.jpg" alt=""></a>
+        <a href="/seats"><img src="/boll-movie-poster.jpg" alt=""></a>
+        <a href="/seats"><img src="/hanuman.jpg" alt=""></a>
+        <a href="/seats"><img src="/jaw.jpg" alt=""></a>
+        <a href="/seats"><img src="/joker.jpg" alt=""></a>
     </section>
 
+    <footer>
+        <div class="top-footer">
+            <div class="navigate">
+                <h2>Navigate</h2>
+                <a href="/business">Business</a>
+                <a href="/about">About Us</a>
+                <a href="/contact">Contact Us</a>
+            </div>
+            <div class="info-footer">
+                <h2>Chitra Movies</h2>
+                <ul><li>Chitra Movies Pvt. Ltd.</li>
+                <li>Chabahil, Kathmandu</li>
+                <li>Chitra Fan Club Helpline:9823726411</li>
+                <li>Email:chitramovies@gmail.com</li></ul>
+                <h4>For Booking,Call Us at 4568700</h4>
+            </div>
+            <div class="social-media">
+                <h2>Stay Connected</h2>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                
+            </div>
+        </div>
+        <div class="bottom-footer">
+            &copy;2024Chitra Movies. All Rights Reserved. Developed by:<b>Chitra Movies Pvt. Ltd.</b>
+        </div>
+    </footer>
 
 
-
-    <script src="../script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>

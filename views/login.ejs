@@ -24,47 +24,22 @@
         <li class="nav-links"><a href="/business">Business</a></li>
         <li class="nav-links"><a href="/about">About Us</a></li>
         <li class="nav-links"><a href="/contact">Contact Us</a></li>
-        <div id="login">
-            <p><a href="/login">Login</a></p>
+        <div id="login" onclick="toggleLogin()">
+             <p>Login</p>
         </div>
        </div>
     </nav> 
     </header>
         <div id="signup">
-            <h2>Sign Up</h2>
-            <form action="/signup" method="post">
+            <h2>Log In</h2>
+            <form action="/login" method="post">
                 <input type="text" name="username" id="name" placeholder="Enter Your Name" required autocomplete="off">
                 <input type="password" name="password" id="password" placeholder="password" required>
-                <button type="submit" class="submit-btn">Sign Up</button>
+                <button type="submit" class="submit-btn">Login</button>
             </form>
+            <a href="/signup">Sign-Up</a>
             </div>
         </div>
-    <footer>
-        <div class="top-footer">
-            <div class="navigate">
-                <h2>Navigate</h2>
-                <a href="/business">Business</a>
-                <a href="/about">About Us</a>
-                <a href="/contact">Contact Us</a>
-            </div>
-            <div class="info-footer">
-                <h2>Chitra Movies</h2>
-                <ul><li>Chitra Movies Pvt. Ltd.</li>
-                <li>Chabahil, Kathmandu</li>
-                <li>Chitra Fan Club Helpline:9823726411</li>
-                <li>Email:chitramovies@gmail.com</li></ul>
-                <h4>For Booking,Call Us at 4568700</h4>
-            </div>
-            <div class="social-media">
-                <h2>Stay Connected</h2>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                
-            </div>
-        </div>
-        <div class="bottom-footer">
-            &copy;2024Chitra Movies. All Rights Reserved. Developed by:<b>Chitra Movies Pvt. Ltd.</b>
-        </div>
-    </footer>
+
 </body>
 </html>
